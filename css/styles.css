@@ -1,0 +1,129 @@
+html, body {
+	background-color: beige;
+	font-family: 'Bree Serif', serif;
+	margin: 0%;
+	height: 100%;
+	width: 100%;
+	padding: 0%;
+}
+section{
+	display: block;
+	margin: 3px 5px 2px 5px;
+	padding: 5%;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+h1 {
+	color: crimson;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 5px 5px 5px orangered;
+}
+#tagLine {
+	color: crimson;
+	font-size: 40px;
+	text-align: center;
+}
+li {
+	list-style-type: none;
+}
+span {
+	display:inline-block;
+}
+img {
+	width: 100%;
+}
+.split {
+	display: inline-block;
+	width: 49%;
+}
+.backTop {
+	text-align: center;
+	font-size: 30px;
+	float: bottom;
+}
+#topMenu {
+	text-align: center;
+	padding: 0px;
+	margin: 0 0 10px 0;
+}
+.guide {
+	font-size: 50px;
+	padding: 5%;
+}
+.guide a{
+	color: maroon;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #fff;
+	letter-spacing: 2px;
+}
+.guide:hover{
+	text-shadow: 0px 0px 5px #0d1a3a;
+}
+.guide a:hover{
+	color: indianred;
+	text-shadow: 0px 0px 1px orangered;
+}
+#menu {
+	height:170%;
+}
+#pizza {
+	font-family: "Libre Baskerville" serif;
+}
+#pizza:hover {
+	text-shadow: 1px 1px 1px maroon;
+}
+#special {
+	color: indianred;
+	font-size: 70px;
+	text-align: Center;
+}
+
+.sectionTitle {
+	color: maroon;
+	text-align: center;
+	font-size: 80px;
+}
+
+.pizzaName {
+	color: indianred;
+	font-size: 40px;
+}
+.description {
+	color: tan;
+	font-size: 30px;
+}
+.price {
+	color: green;
+	text-align: right;
+	font-size: 35px;
+}
+
+#subscribe{
+	text-align: center;
+	font-size: 70px;
+	color: indianred;
+}
+input {
+	font-size: 40px;
+	text-align: center;
+}
+button {
+	background-color: tan;
+	box-shadow: 1px 1px 1px 1px indianred;
+	color: beige;
+	font-size: 40px;
+	text-align: center;
+}
+button:hover {
+	background-color: maroon;
+	border: 10px groove indianred;
+	color: indianred;
+}
+#visit {
+	text-align: center;
+	font-size: 50px;
+}
+
