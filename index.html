@@ -5,19 +5,21 @@
 	<title>Pizzeria</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Libre+Baskerville" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-<body>
+<body class= "allBody">
 	<header id="intro">
 		<div class="content">
-			<h1>Pizzaria La Devleague</h1>
-			<h2 id="tagLine">Functional Pizza For All!</h2>
-			<div class="split">
-				<span>
-					<img src="assets/pizzaMan.png" alt="logo">
-				</span>
+			<div class = "col-md-12">
+				<h1 id="mainTitle">Pizzaria La Devleague</h1>
+				<h2 id="tagLine">Functional Pizza For All!</h2>
 			</div>
-			<div class="split">
-				<nav id="topMenu">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="assets/pizzaMan.png" alt="logo">
+				</div>
+				<div class = "col-md-6">
+					<nav id="topMenu">
 					<li class="guide">
 						<a href="#today">Today's Special</a>
 					</li>
@@ -31,6 +33,7 @@
 						<a href="#visit">Visit</a>
 					</li>
 				</nav>
+				</div>
 			</div>
 		</div>
 	</header><!-- /header -->
@@ -92,19 +95,21 @@
 	<section id="visit">
 		<div class="content">
 			<h3 class="sectionTitle">Visit</h3>
-			<div class="split">
-				<ul id="addy">
-					<li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
-					<li id="map">
-						<a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map in Window</a>
-					</li>
-					<li class="hours">Monday-Saturday</li>
-					<li class="hours">12pm - 12am</li>
-					<li class="hours">Coding on Sundays</li>
-				</ul>
-			</div>
-			<div class="split">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59507.25418116696!2d-157.899628!3d21.223782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd84a9348810716bf!2sManoa+Innovation+Center!5e0!3m2!1sen!2sus!4v1487385164558" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="row">
+				<div class="col-md-6">
+					<ul id="addy">
+						<li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
+						<li id="map">
+							<a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map in Window</a>
+						</li>
+						<li class="hours">Monday-Saturday</li>
+						<li class="hours">12pm - 12am</li>
+						<li class="hours">Coding on Sundays</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59507.25418116696!2d-157.899628!3d21.223782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd84a9348810716bf!2sManoa+Innovation+Center!5e0!3m2!1sen!2sus!4v1487385164558" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 		<p class="backTop">
