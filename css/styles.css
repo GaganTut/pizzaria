@@ -103,19 +103,26 @@ input {
 	text-align: center;
 }
 button {
-	background-color: tan;
+	background-color: rgba(210, 180, 140, 0.5);
 	box-shadow: 1px 1px 1px 1px indianred;
 	color: beige;
-	font-size: 40px;
+	font-size: 25px;
 	text-align: center;
 }
 button:hover {
 	background-color: maroon;
-	border: 10px groove indianred;
+	border: 2px groove indianred;
 	color: indianred;
 }
 #visit {
 	text-align: center;
 	font-size: 50px;
 }
-
+#priceCart {
+	background-color: rgba(210, 180, 140, 0.5);
+	bottom: 0;
+	left: 80%;
+	position: fixed;
+	color: indianred;
+	font-size: 25px;
+}
